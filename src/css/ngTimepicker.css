@@ -7,14 +7,24 @@
 }
 
 .ng-timepicker {
+	margin: -13px 0px 0px -51px;
 	display: inline-block;
-	position: absolute;
+	/* position: absolute; */
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
 	color: #333;
 	font-size: 18px;
-	padding:  3px 5px;
-	background: #fff;
+	/* padding: 3px 5px; */
+	background: #F2F2F2;
+    
+	/*display: inline-block;*/
+	/*position: absolute;*/
+	/*border: 1px solid #d4d4d4;*/
+	/*border-radius: 2px;*/
+	/*color: #333;*/
+	/*font-size: 18px;*/
+	/*padding:  3px 5px;*/
+	/*background: #fff;*/
 }
 
 .ng-timepicker > table > tbody > tr > td {
