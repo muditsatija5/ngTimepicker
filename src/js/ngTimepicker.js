@@ -30,12 +30,12 @@ angular.module('jkuri.timepicker', [])
 				if (!scope.showMeridian) {
 					time = scope.hour + ':' + scope.minutes;
 					scope.viewValue = time;
-					ngModel.$setViewValue(time);
+					ngModel.angular.copy(time);
 				} else {
 					time = scope.hour + ':' + scope.minutes;
 					scope.viewValue = time + ' ' + scope.meridian;
 					time = convertFromMeridianHour() + ':' + scope.minutes;
-					ngModel.$setViewValue(time);
+					ngModel.angular.copy(time);
 				}
 			};
 
